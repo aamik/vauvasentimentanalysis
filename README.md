@@ -1,5 +1,7 @@
 # Finnish Forum discussion exploratory language analysis demo
 
+#### [Open the main notebook (analysis.ipynb)](analysis.ipynb)
+
 #### Built using a BERT finnish sentiment model by [Nisan Coşkun](https://huggingface.co/nisancoskun/bert-finnish-sentiment-analysis-v2)
 
 #### by Aapo Mikkola, 2025.04.02
