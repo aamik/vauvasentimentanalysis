@@ -1,0 +1,23 @@
+[project]
+name = "vauvasentimentanalysis"
+version = "0.1.0"
+description = "BERT NLP sentiment analysis"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gensim",
+    "nltk",
+    "PyPDF2",
+    "matplotlib",
+    "pandas",
+    "plotly",
+    "numpy",
+    "tqdm",
+    "sentence-transformers",
+    "scikit-learn",
+    "transformers",
+    "datasets",
+    "torch",
+    "seaborn",
+    "wordcloud",
+]
