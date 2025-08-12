@@ -20,6 +20,21 @@
 
 7. Visualizations: topic word clouds (PNG), topic distributions/heatmap, cluster plots. Word clouds use the wordcloud library.
 
+#### Quick start
+
+1. Create project & venv (if not already)
+   uv init
+2. Add deps
+   uv add gensim nltk pypdf2 matplotlib seaborn tqdm sentence-transformers scikit-learn transformers datasets wordcloud plotly
+3. Torch (CPU):
+   uv add torch
+
+4. Or Torch (GPU):
+   uv add --index=https://download.pytorch.org/whl/cu128 --pre torch
+5. Run
+   uv sync
+   uv run python topic5.ipynb
+
 #### Configure
 
 Edit the Config dataclass at the bottom of 10) PIPELINE:
